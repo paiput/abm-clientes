@@ -10,3 +10,17 @@ c:\users\alumno\documents\visual studio 2010\Projects\WindowsApplication1\Window
 c:\users\alumno\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Listas.resources
 c:\users\alumno\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Articulos.resources
 c:\users\alumno\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Liquidacion.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.AssemblyReference.cache
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Articulos.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Clientes.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Liquidacion.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Listas.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.CoreCompileInputs.cache
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\bin\Debug\ABMClientes.exe
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\bin\Debug\ABMClientes.pdb
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\bin\Debug\ABMClientes.xml
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\ABMClientes.exe
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\ABMClientes.xml
+E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\obj\x86\Debug\ABMClientes.pdb

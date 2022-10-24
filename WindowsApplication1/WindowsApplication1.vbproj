@@ -10,7 +10,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
     <RootNamespace>WindowsApplication1</RootNamespace>
-    <AssemblyName>WindowsApplication1</AssemblyName>
+    <AssemblyName>ABMClientes</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <DocumentationFile>ABMClientes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <DocumentationFile>ABMClientes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,16 +72,17 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Articulos.Designer.vb">
       <DependentUpon>Articulos.vb</DependentUpon>
     </Compile>
     <Compile Include="Articulos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="D:\vb-net\FormPaiput.Designer.vb">
-      <DependentUpon>FormPaiput.vb</DependentUpon>
+    <Compile Include="Clientes.Designer.vb">
+      <DependentUpon>Clientes.vb</DependentUpon>
     </Compile>
-    <Compile Include="D:\vb-net\FormPaiput.vb">
+    <Compile Include="Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Liquidacion.Designer.vb">
@@ -100,6 +101,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -116,8 +118,8 @@
     <EmbeddedResource Include="Articulos.resx">
       <DependentUpon>Articulos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="D:\vb-net\FormPaiput.resx">
-      <DependentUpon>FormPaiput.vb</DependentUpon>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Liquidacion.resx">
       <DependentUpon>Liquidacion.vb</DependentUpon>
