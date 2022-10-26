@@ -22,7 +22,7 @@ Partial Class Articulos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxArticulos = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
@@ -39,15 +39,15 @@ Partial Class Articulos
         CType(Me.NumericUpDownOtra, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ComboBox1
+        'ComboBoxArticulos
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"BLOCK LISO", "BLOCK RAYADO", "CARPETA", "CUADERNO", "LAPICERA", "LAPIZ HB"})
-        Me.ComboBox1.Location = New System.Drawing.Point(26, 55)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(160, 24)
-        Me.ComboBox1.TabIndex = 0
+        Me.ComboBoxArticulos.FormattingEnabled = True
+        Me.ComboBoxArticulos.Items.AddRange(New Object() {"BLOCK LISO", "BLOCK RAYADO", "CARPETA", "CUADERNO", "LAPICERA", "LAPIZ HB"})
+        Me.ComboBoxArticulos.Location = New System.Drawing.Point(26, 55)
+        Me.ComboBoxArticulos.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBoxArticulos.Name = "ComboBoxArticulos"
+        Me.ComboBoxArticulos.Size = New System.Drawing.Size(160, 24)
+        Me.ComboBoxArticulos.TabIndex = 0
         '
         'Label1
         '
@@ -200,7 +200,7 @@ Partial Class Articulos
         Me.Controls.Add(Me.RadioButton12)
         Me.Controls.Add(Me.RadioButton6)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.ComboBoxArticulos)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Articulos"
         Me.Text = "ARTICULOS"
@@ -210,7 +210,7 @@ Partial Class Articulos
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxArticulos As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton12 As System.Windows.Forms.RadioButton

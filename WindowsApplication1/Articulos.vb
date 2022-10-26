@@ -1,9 +1,22 @@
 ﻿Public Class Articulos
     Dim unidades As Integer = 0
     Dim precioUnitario As Integer = 0
-    Dim precio = 0
-    Dim precioEfectivo As Integer = 0
-    Dim precioCuotas As Integer = 0
+
+    Public Function GetPrecioUnitario()
+        Return precioUnitario
+    End Function
+
+    Public Function GetUnidades()
+        Return unidades
+    End Function
+
+    Public Function GetPrecioEfectivo()
+        Return (precioUnitario * unidades) * 0.9
+    End Function
+
+    Public Function GetPrecioCuotas()
+        Return (precioUnitario * unidades) * 1.15
+    End Function
 
     Private Sub RadioButton6_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton6.CheckedChanged
         unidades = 6
@@ -38,17 +51,19 @@
             MsgBox("Falta especificar el precio por unidad")
             Return
         End If
-        precio = precioUnitario * unidades
-        precioEfectivo = precio * 0.9
-        precioCuotas = precio * 1.15
         LabelPrecioEfectivo.Visible = True
         LabelPrecioCuotas.Visible = True
-        LabelPrecioEfectivo.Text = "Precio en efectivo: $" + precioEfectivo.ToString()
-        LabelPrecioCuotas.Text = "Precio en cuotas: $" + precioCuotas.ToString()
+        LabelPrecioEfectivo.Text = "Precio en efectivo: $" + GetPrecioEfectivo().ToString()
+        LabelPrecioCuotas.Text = "Precio en cuotas: $" + GetPrecioCuotas().ToString()
     End Sub
 
     Private Sub ButtonContinuar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonContinuar.Click
+        MsgBox(ComboBoxArticulos.Text)
+        If unidades = 0 Or ComboBoxArticulos.Text = "" Or precioUnitario = 0 Then
+            MsgBox("Especificar articulo, unidades, y precio para continuar")
+            Return
+        End If
         Liquidacion.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 End Class
