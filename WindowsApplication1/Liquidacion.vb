@@ -4,7 +4,7 @@
     Dim precio As Integer
 
     Private Sub ButtonVerListas_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonVerListas.Click
-        Dim result As DialogResult = MessageBox.Show("message", "caption", MessageBoxButtons.YesNo)
+        Dim result As DialogResult = MessageBox.Show("¿Desea realizar el pago?", "Confirmacion", MessageBoxButtons.YesNo)
         If result = DialogResult.Yes Then
             If lista = "efectivo" Then
                 Listas.ListBoxEfectivo.Items.Remove(cliente)
@@ -12,8 +12,9 @@
                 Listas.ListBoxCuotas.Items.Remove(cliente)
             End If
             MsgBox($"El cliente ha sido eliminado de la lista de pago en {lista}")
-            Me.Close()
         End If
+        Clientes.Show()
+        Me.Close()
     End Sub
 
     Private Sub Liquidacion_Load(sender As Object, e As EventArgs) Handles MyBase.Load

@@ -58,7 +58,6 @@
     End Sub
 
     Private Sub ButtonContinuar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonContinuar.Click
-        MsgBox(ComboBoxArticulos.Text)
         If unidades = 0 Or ComboBoxArticulos.Text = "" Or precioUnitario = 0 Then
             MsgBox("Especificar articulo, unidades, y precio para continuar")
             Return

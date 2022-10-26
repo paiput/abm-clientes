@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# BC2001: no se encontró el archivo 'E:\Lucas\escuela\5to\lpoo\vb-net\abm-clientes\WindowsApplication1\My Project\Class1.vb'
+dotnet_diagnostic.BC2001.severity = none
